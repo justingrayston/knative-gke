@@ -32,7 +32,7 @@ resource "google_container_node_pool" "np" {
 
 resource "google_container_cluster" "primary" {
     project = "jgrayston-serverless"
-    name = "knative-prod"
+    name = "knative-prod-terraform"
     zone = "europe-west4-a"
     initial_node_count = "3"
 }

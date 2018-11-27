@@ -4,5 +4,5 @@ kubectl apply --filename https://storage.googleapis.com/knative-releases/eventin
 kubectl apply --filename https://storage.googleapis.com/knative-releases/eventing-sources/latest/release.yaml
 kubectl apply --filename https://storage.googleapis.com/knative-releases/eventing-sources/latest/release-with-gcppubsub.yaml
 
-kubectl apply --filename config-domain.yaml
+kubectl apply -R -f certs_and_dns
 kubectl patch svc knative-ingressgateway --namespace istio-system --patch '{"spec": { "loadBalancerIP": "35.204.177.246" }}'
