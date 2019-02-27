@@ -13,5 +13,5 @@ kubectl create clusterrolebinding cluster-admin-binding \
 --clusterrole=cluster-admin \
 --user=$(gcloud config get-value core/account)
 
-kubectl apply --filename https://raw.githubusercontent.com/jetstack/cert-manager/release-0.5/contrib/manifests/cert-manager/with-rbac.yaml
+kubectl apply --filename https://raw.githubusercontent.com/jetstack/cert-manager/release-0.6.1/contrib/manifests/cert-manager/with-rbac.yaml
 
