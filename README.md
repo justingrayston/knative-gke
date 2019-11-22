@@ -8,7 +8,7 @@ Perhaps in the future there maybe a more robust deployment. PRs welcome, some se
 
 # Instructions
 
-You will need a GCP account will billing enabled.
+You will need a GCP account will billing enabled and the gcloud SDK installed along with Kubectl (which gcloud installer can do for you). Hopefully if you are here, that is quite highly likely.
 
 You will need to set up the Cloud DNS Zone first (currently set up is commented out). If you don't do this, cert-manager won't be able to do the DNS TXT record challenge.
 
