@@ -8,4 +8,6 @@ Perhaps in the future there maybe a more robust deployment. PRs welcome, some se
 
 # Instructions
 
+You will need a GCP account will billing enabled.
+
 Modify variables.sh with the required information (get your static IP first). Then to get a cluster with Knative and Cert Manager installed just run `bash setup.sh` and use `bash teardown.sh` to, well tear it all down.
