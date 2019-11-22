@@ -1,7 +1,0 @@
-export IOTCORE_PROJECT="jgrayston-serverless"
-export CHANNEL_NAME="iot-demo"
-export IOTCORE_REGISTRY="iot-demo"
-export IOTCORE_DEVICE="iot-demo-client"
-export IOTCORE_REGION="europe-west1"
-export IOTCORE_TOPIC_DATA="iot-demo-pubsub-topic"
-export IOTCORE_TOPIC_DEVICE="iot-demo-device-pubsub-topic"
